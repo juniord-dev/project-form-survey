@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+body {
+  background-image: linear-gradient( 115deg, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7) ), url("../assets/bkg-survey.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+header {
+  margin-top: 4%;
+  text-align: center;
+  width: 100%;
+  line-height: 2.5rem;
+  color: #F5F5F5;
+}
+
+#description {
+  font-style: italic;
+  font-weight: 200;
+}
+
+input, select, textarea {
+  padding: .5rem;
+  border-radius: .2rem;
+  font-size: .9rem;
+  color: rgba(91, 90, 89, 0.859);
+}
+
+input[type="checkbox"], input[type="radio"]  {
+  width: 20px;
+  height: 20px;
+}
+
+form {
+  position: relative;
+  background-color: #13151ab4;
+  color: #F5F5F5;
+  padding: 2.2rem;
+  width: 650px;
+  margin: 0 auto;
+  margin-top: 1rem;
+  border-radius: .2rem;
+  display: block;
+}
+
+.group-question {
+  margin-bottom: 1rem;
+  line-height: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.group-question div {
+  display: flex;
+  align-items: center;
+}
+
+.group-question div label {
+  margin-left: .4rem;
+}
+
+.obs {
+  font-size: .8rem;
+  vertical-align: top;
+}
+
+.block {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 100px;
+  font-family: 'Poppins', sans-serif;
+  font-size: .9rem;
+}
+
+#submit {
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding: .7rem;
+  font-size: .9rem;
+  margin: 2rem auto;
+  cursor: pointer;
+  background-color: #37af65;
+  color: #F5F5F5;
+  border: none;
+  border-radius: .2rem;
+}
